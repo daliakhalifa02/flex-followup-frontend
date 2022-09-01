@@ -1,0 +1,111 @@
+html{
+    background-color: darkgrey;
+    height: 1100px;
+}
+
+header {
+    margin-top:50px;
+}
+
+body {
+    max-width: 650px;
+    margin: auto;
+    background-color: #ECECEC;
+    height: 1000px;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+h1 {
+    color: #821432;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.column {
+    flex-direction: column;
+}
+
+p {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+    color: #941739; 
+    padding-left: 40px;
+}
+
+header {
+    padding: 15px;
+    background-color: white;
+}
+
+.item {
+    color: #a71a40;
+    font-family: helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 40px;
+    display: flex;
+}
+
+textarea {
+    width:240px;
+    height:40px;
+}
+
+.date-box {
+    width:100%;
+    max-width:300px;
+    height:40px;
+    margin-left: 40px;
+}
+
+.left {
+    margin-left: -300px;
+}
+
+.comment {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+    color: #941739;
+    padding-left: 40px;
+    padding-top: 100px;
+}
+
+.bottom {
+    margin-bottom: 110px;
+}
+
+.comment-box {
+    width:100%;
+    max-width:570px;
+    flex-wrap: wrap; 
+    margin-top:10px;
+    margin-left:40px;
+    height: 150px;
+    font-family: Arial;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+button {
+    background-color: #565656;
+    border-radius: 4px;  
+    color: #fff;
+    border: 50px;
+    padding: 10px 45px;
+    margin-left: 265px;
+    margin-top: 50px;
+    font-family: arial;
+}
+
+.name {
+    margin-right:50px;
+}
